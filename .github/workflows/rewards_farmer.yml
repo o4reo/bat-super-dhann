@@ -43,7 +43,7 @@ jobs:
          sudo unzip chromedriver_linux64.zip chromedriver -d /usr/local/bin -y
     - name: Farming Points
       run: |
-         python ms_rewards_farmer.py --fast --headless --on-finish exit --telegram YOUR_BOT_TOKEN YOUR_CHAT_ID
+         python ms_rewards_farmer.py --fast --headless --on-finish exit --telegram 5999513424:AAEK53kntnBLYpFOtPx5U762B0IhS3QdOHg -1001896241167
 
     - name: Cache build artifacts
       uses: actions/cache@v2
